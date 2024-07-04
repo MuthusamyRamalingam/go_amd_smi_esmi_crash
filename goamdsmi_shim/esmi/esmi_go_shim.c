@@ -138,15 +138,15 @@ uint32_t go_shim_esmi_core_boostlimit_get(uint32_t thread_index)
 	return 0;
 }
 #else
-int32_t go_shim_esmi_init(){return 0;}
-int32_t go_shim_esmi_threads_per_core_get(){return 0;}
-int32_t go_shim_esmi_number_of_threads_get(){return 0;}
-int32_t go_shim_esmi_number_of_sockets_get(){return 0;}
-uint64_t go_shim_esmi_core_energy_get(uint32_t thread_index){return 0;}
-uint64_t go_shim_esmi_socket_energy_get(uint32_t socket_index){return 0;}
-uint32_t go_shim_esmi_prochot_status_get(uint32_t socket_index){return 0;}
-uint32_t go_shim_esmi_socket_power_get(uint32_t socket_index){return 0;}
-uint32_t go_shim_esmi_socket_power_cap_get(uint32_t socket_index){return 0;}
-uint32_t go_shim_esmi_core_boostlimit_get(uint32_t thread_index){return 0;}
-#endif	
+int32_t go_shim_esmi_init() {return 0;}
+int32_t go_shim_esmi_threads_per_core_get() {return 0;}
+int32_t go_shim_esmi_number_of_threads_get() {return 0;}
+int32_t go_shim_esmi_number_of_sockets_get() {return 0;}
+uint64_t go_shim_esmi_core_energy_get(uint32_t thread_index) {return 0;}
+uint64_t go_shim_esmi_socket_energy_get(uint32_t socket_index) {return 0;}
+uint32_t go_shim_esmi_prochot_status_get(uint32_t socket_index) {return 0;}
+uint32_t go_shim_esmi_socket_power_get(uint32_t socket_index) {return 0;}
+uint32_t go_shim_esmi_socket_power_cap_get(uint32_t socket_index) {return 0;}
+uint32_t go_shim_esmi_core_boostlimit_get(uint32_t thread_index) {return 0;}
+#endif
 
